@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter, Router, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className='bg-red-200'>HI</div>
-  )
-}
+    <BrowserRouter>
+      <Router>
+        <Routes></Routes>
+      </Router>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
